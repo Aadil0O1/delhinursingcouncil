@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificate of Registration</title>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+      background: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+    .certificate {
+      border: 1px solid #aaa;
+      border-radius: 0px;
+      padding: 70px 80px;
+      max-width: 1600px;
+      margin: auto;
+      min-height: 500px;
+      position: relative;
+    }
+
+    /* Header row with barcode - center (logo+heading) - photo */
+    .header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 25px;
+    }
+    .barcode {
+      text-align: center;
+      font-size: 14px;
+    }
+    .barcode img {
+      height: 65px;
+      display: block;
+      margin-bottom: 3px;
+    }
+    .photo {
+      width: 130px;
+      height: 150px;
+      border: 1px solid #000;
+      object-fit: cover;
+    }
+
+    /* Center section (logo + text) */
+    .center-block {
+      text-align: center;
+    }
+    .logo {
+      width: 150px;
+      margin: 8px 0;
+    }
+    .center-block h2 {
+      font-size: 34px;
+      color: #2b1974;
+      margin: 0;
+    }
+    .title {
+      font-size: 22px;
+      font-weight: bold;
+      color: red;
+      margin-top: 5px;
+    }
+
+    /* Content */
+    .content {
+      margin: 40px 40px 20px 40px;
+      font-size: 18px;
+      line-height: 1.9;
+      text-align: justify;
+      font-style: italic;
+    }
+    .content .bold {
+      font-style: normal;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    .footer {
+      margin: 40px 40px 0 40px;
+      font-size: 17px;
+      line-height: 1.8;
+      font-style: italic;
+    }
+    .footer .bold {
+      font-style: normal;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="certificate">
+
+    <!-- Barcode - (Logo+Heading) - Photo Row -->
+    <div class="header-row">
+      <div class="barcode">
+        <img src="barcode.png" alt="Barcode">
+      </div>
+
+      <div class="center-block">
+        <h2>DELHI NURSING COUNCIL</h2>
+        <img src="logo.png" alt="Logo" class="logo">
+        <div class="title">CERTIFICATE OF REGISTRATION</div>
+      </div>
+
+      <img src="photo.jpeg" alt="Candidate Photo" class="photo">
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+      This is to certify that <span class="bold">Mr. Rizwan S/O Mr. Subrati</span> has taken a 
+      Programme of study for <span class="bold">General Nursing and Midwifery at Rufaida College of Nursing, New Delhi </span>
+      from <span class="bold">November 2020 to October 2023</span> and has passed the examination for Nurses and Midwives conducted by 
+      <span class="bold">Delhi Nursing Council</span> in <span class="bold">September 2023</span> and is admitted in the Nurses and Midwives Register maintained under the provisions of the 
+      Delhi Nursing Council Act, 1997 (Delhi Act No. 3 of 1999) as a 
+      <span class="bold">REGISTERED NURSE</span> and <span class="bold">REGISTERED MIDWIFE</span>.
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      The number assigned to him in the Register as a Nurse is : <span class="bold">106174</span><br>
+      The number assigned to him in the Register as a Midwife is : <span class="bold">106174</span><br><br>
+      Dated at Delhi, the <span class="bold">8th</span> day of <span class="bold">November 2024</span>
+    </div>
+
+  </div>
+</body>
+</html>
